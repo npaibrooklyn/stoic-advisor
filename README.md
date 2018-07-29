@@ -2,6 +2,8 @@
 https://stoic-advisor.appspot.com/vue-gen.html  
 Demonstrates a simple form validation and submit using Ajax to a mock REST API
 
+
+
 # Credits
 * This project was build using the Vue.js webpack template at:  
 https://github.com/vuejs-templates/webpack/tree/develop/template  
@@ -14,8 +16,9 @@ https://vuejs-templates.github.io/webpack/
 
     * Also, changed the name of generated index file (from index.html to vue-gen.html) and assets folder (from static/ to vue-gen/)
 
-# One time setup
 
+
+# One time setup
 * Signup for Google cloud account at https://console.cloud.google.com/ and enable billing
 
 * Download and install Google cloud SDK at https://cloud.google.com/sdk/
@@ -37,7 +40,6 @@ https://vuejs-templates.github.io/webpack/
 
 
 # Building Vue.js app
-
 ```
 ## Install dependencies (one time; creates node_modules folder)
 npm install
@@ -54,9 +56,8 @@ npm run build --report
 ```
 
 
+
 # Deploy and start the web app on App Engine in Google cloud using Eclipse
-
-
 ### Generate the Vue.js app
 ```  
 npm run build --report
@@ -78,24 +79,23 @@ npm run build --report
 * Go to https://stoic-advisor.appspot.com/vue-gen.html 
 
 
+
 # Running locally on App Engine using Eclipse
-
-
-### Generate the Vue.js app
+## Generate the Vue.js app
 ```
 npm run build --report
 ```
 
 ### Run App Engine locally
-
 * Right click on the project
 
 * Run as... -> App Engine
 
 * Got to http://localhost:8080/vue-gen.html
 
-# Maven
 
+
+# Maven
 ### See all available maven goals
 mvn help:describe -Dplugin=appengine
 
