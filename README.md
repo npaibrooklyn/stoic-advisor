@@ -1,36 +1,36 @@
 # Demo
-https://stoic-advisor.appspot.com/vue-gen.html
+https://stoic-advisor.appspot.com/vue-gen.html  
+Demonstrates a simple form validation and submit using Ajax to a mock REST API
 
 # Credits
-- This project was build using the Vue.js webpack template at:  
+* This project was build using the Vue.js webpack template at:  
 https://github.com/vuejs-templates/webpack/tree/develop/template  
 
-- Documentation for the template is here:  
+* Documentation for the template is here:  
 https://vuejs-templates.github.io/webpack/
 
-- I tweaked the files in build/ and config/ folder to: 
-Generate frontend files into the src/main/webapp/ folder of App Engine (instead of the dist/ folder) as per:    
-https://vuejs-templates.github.io/webpack/backend.html  
+* I tweaked the files in build/ and config/ folder in following ways:   
+    * Generate frontend files into the src/main/webapp/ folder of App Engine (instead of the dist/ folder) as per: https://vuejs-templates.github.io/webpack/backend.html  
 
-Also, changed the name of generated index file (from index.html to vue-gen.html) and assets folder (from static/ to vue-gen/)
+    * Also, changed the name of generated index file (from index.html to vue-gen.html) and assets folder (from static/ to vue-gen/)
 
 # One time setup
 
-- Signup for Google cloud account at https://console.cloud.google.com/ and enable billing
+* Signup for Google cloud account at https://console.cloud.google.com/ and enable billing
 
-- Download and install Google cloud SDK at https://cloud.google.com/sdk/
+* Download and install Google cloud SDK at https://cloud.google.com/sdk/
 
-- Download and install JDK 8 at http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+* Download and install JDK 8 at http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
-- Download and install the latest version of Eclipse IDE for Java developers
+* Download and install the latest version of Eclipse IDE for Java developers
 
-- Install Cloud tools for Eclipse plugin at https://cloud.google.com/eclipse/docs/quickstart
+* Install Cloud tools for Eclipse plugin at https://cloud.google.com/eclipse/docs/quickstart
 
-- Install homebrew: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+* Install homebrew: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-- Install npm: brew install node
+* Install npm: brew install node
 
-- Download and install maven:   
+* Download and install maven:   
     https://maven.apache.org/download.cgi  
     https://maven.apache.org/install.html
 
@@ -156,4 +156,7 @@ mvn appengine:deploy
 
 
 # Documentation
- - Vue.js: https://vuejs.org/v2/guide/
+ * Vue.js: https://vuejs.org/v2/guide/
+
+
+ 
