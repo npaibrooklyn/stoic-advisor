@@ -2,7 +2,7 @@
 https://stoic-advisor.appspot.com/vue-gen.html
 
 # Credits
-This project was build using few alterations to the template at https://vuejs-templates.github.io/webpack/
+This project was build using the Vue.js webpack template at https://vuejs-templates.github.io/webpack/
 
 # One time setup
 
