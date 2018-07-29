@@ -29,7 +29,7 @@ This project was build using the Vue.js webpack template at https://vuejs-templa
 # Building Vue.js app
 
 ```
-## Install dependencies (one time)
+## Install dependencies (one time; creates node_modules folder)
 npm install
 
 ## Serve with hot reload at localhost:8080

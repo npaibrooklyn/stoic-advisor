@@ -1,4 +1,4 @@
-import { required, email, maxLength } from 'vuelidate/lib/validators';
+import { required, email, minLength, maxLength } from 'vuelidate/lib/validators';
 import axios from 'axios';
 import Vue from 'vue';
 
@@ -131,7 +131,7 @@ export default {
     form: {
       email: { required, email },
       name: { required },
-      question: { required, maxLength: maxLength(2000) }
+      question: { required, minLength: minLength(100), maxLength: maxLength(2000) }
     }
   },
   watch: {

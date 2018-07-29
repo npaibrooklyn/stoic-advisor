@@ -3,12 +3,12 @@
     <form v-if="!isSubmitted" @submit.prevent="submit" novalidate>
       <div class="form-group">
         <label for="name">{{ $t('form.name') }} *</label>
-        <input type="text" class="form-control" id="name" v-model.lazy.trim="form.name" @blur="onFieldBlur('name')" v-bind:class="getFieldClasses('name')">
+        <input type="text" class="form-control" id="name" v-bind:placeholder="$t('form.placeholderName')" v-model.lazy.trim="form.name" @blur="onFieldBlur('name')" v-bind:class="getFieldClasses('name')">
         <div v-if="isErrorField('name')" class="invalid-feedback">{{ $t('error.fieldRequired', { field: $t('form.name') }) }}</div>
       </div>
       <div class="form-group">
         <label for="email">{{ $t('form.email') }} *</label>
-        <input type="email" class="form-control" id="email" v-model.lazy.trim="form.email" @blur="onFieldBlur('email')" v-bind:class="getFieldClasses('email')">
+        <input type="email" class="form-control" id="email" v-bind:placeholder="$t('form.placeholderEmail')" v-model.lazy.trim="form.email" @blur="onFieldBlur('email')" v-bind:class="getFieldClasses('email')">
         <div v-if="isErrorField('email')" class="invalid-feedback">{{ $t('error.fieldInvalid', { field: $t('form.email') }) }}</div>
       </div>
       <div class="form-group">
@@ -18,6 +18,7 @@
           rows="12" 
           class="form-control" 
           id="question" 
+          v-bind:placeholder="$t('form.placeholderQuestion')"
           v-model.trim="form.question" 
           v-bind:class="getFieldClasses('question')" 
           v-bind:maxlength="$v.form['question'].$params.maxLength.max" 

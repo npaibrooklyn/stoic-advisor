@@ -17,7 +17,7 @@ export default {
   name: 'app',
   data () {
     return {
-      title: 'Stoic Advisor'
+      title: 'Life advice from a stoic'
     }
   },
   components: {
