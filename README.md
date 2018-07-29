@@ -54,15 +54,15 @@ npm run build --report
 ```
 
 
-# Deploying and starting the web app on App Engine in Google cloud using Eclipse
+# Deploy and start the web app on App Engine in Google cloud using Eclipse
 
 
-## Generate the Vue.js app
+### Generate the Vue.js app
 ```  
 npm run build --report
 ```
 
-## Deploy and start App Engine app  
+### Deploy and start App Engine app  
 * Right click on project in Eclipse and click "Deploy to App Engine Standard...".
 
 * In the resulting window, select the google account associated with the cloud console and 
@@ -81,12 +81,12 @@ npm run build --report
 # Running locally on App Engine using Eclipse
 
 
-## Generate the Vue.js app
+### Generate the Vue.js app
 ```
 npm run build --report
 ```
 
-## Run App Engine locally
+### Run App Engine locally
 
 * Right click on the project
 
@@ -96,7 +96,7 @@ npm run build --report
 
 # Maven
 
-## See all available maven goals
+### See all available maven goals
 mvn help:describe -Dplugin=appengine
 
 You will see something like this:
