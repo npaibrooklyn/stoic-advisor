@@ -1,0 +1,4 @@
+node_modules/
+src/main/webapp/vue-gen
+src/main/webapp/vue-gen.html
+output/

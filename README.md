@@ -1,0 +1,84 @@
+# Demo
+https://stoic-advisor.appspot.com/vue-gen.html
+
+# Credits
+This project was build using few alterations to the template at https://vuejs-templates.github.io/webpack/
+
+# One time setup
+
+- Signup for Google cloud account at https://console.cloud.google.com/ and enable billing
+
+- Download and install Google cloud SDK at https://cloud.google.com/sdk/
+
+- Download and install JDK 8 at http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+- Download and install the latest version of Eclipse IDE for Java developers
+
+- Install Cloud tools for Eclipse plugin at https://cloud.google.com/eclipse/docs/quickstart
+
+- Install homebrew: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+- Install npm: brew install node
+
+
+
+# Building Vue.js app
+
+```
+## Install dependencies (one time)
+npm install
+
+## Serve with hot reload at localhost:8080
+npm run dev
+
+## Build for production with minification. This will generate the 
+## src/main/webapp/vue-gen folder and src/main/webapp/vue-gen.html file
+npm run build
+
+## Build for production and view the bundle analyzer report
+npm run build --report
+```
+
+
+# Deploying and starting the web app on App Engine in Google cloud using Eclipse
+
+```
+## Generate the Vue.js app
+1) npm run build --report
+ 
+## Deploy and start App Engine app
+- Right click on project in Eclipse and click "Deploy to App Engine Standard...".
+
+- In the resulting window, select the google account associated with the cloud console and select cloud project (stoic-advisor) to push the application to. 
+
+- Also, check the following: 
+    "Promote deployed version to receive all traffic", 
+    "Stop previous version",
+    "Include optional app engine configuration files" 
+
+- Click "Deploy"
+
+- Go to https://stoic-advisor.appspot.com/vue-gen.html 
+```
+
+
+# Running locally on App Engine using Eclipse
+
+```
+## Generate the Vue.js app
+1) npm run build --report
+
+
+## Run App Engine locally
+
+- Right click on the project
+
+- Run as... -> App Engine
+
+- Got to http://localhost:8080/vue-gen.html
+```
+
+
+
+# Documentation
+ - Vue.js: https://vuejs.org/v2/guide/
