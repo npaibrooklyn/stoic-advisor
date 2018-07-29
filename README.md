@@ -30,7 +30,10 @@ https://vuejs-templates.github.io/webpack/
 
 * Install Cloud tools for Eclipse plugin at https://cloud.google.com/eclipse/docs/quickstart
 
-* Install homebrew: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+* Install homebrew: 
+    ```
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    ```
 
 * Install npm: brew install node
 
@@ -64,8 +67,8 @@ npm run build --report
 npm run build
 ```
 
-#### Deploy and start App Engine app  
-##### Using maven: 
+#### Deploy and start App Engine app using either Maven or Eclipse  
+##### Using Maven 
 ```
 mvn appengine:deploy  
 ```    
