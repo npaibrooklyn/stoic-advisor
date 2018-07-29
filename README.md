@@ -67,7 +67,7 @@ npm run build --report
 * Right click on project in Eclipse and click "Deploy to App Engine Standard...".
 
 * In the resulting window, select the google account associated with the cloud console and 
-    select cloud project (stoic-advisor) to push the application to. 
+    select cloud project (for example: stoic-advisor) to push the application to. 
 
 * Also, check the following: 
     * "Promote deployed version to receive all traffic", 
@@ -76,12 +76,12 @@ npm run build --report
 
 * Click "Deploy"
 
-* Go to https://stoic-advisor.appspot.com/vue-gen.html 
+* Go to the website, for example: https://stoic-advisor.appspot.com/vue-gen.html 
 
 
 
 # Running locally on App Engine using Eclipse
-## Generate the Vue.js app
+### Generate the Vue.js app
 ```
 npm run build --report
 ```
