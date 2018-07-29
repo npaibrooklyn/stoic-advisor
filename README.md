@@ -51,7 +51,7 @@ https://vuejs-templates.github.io/webpack/
 ## Install dependencies (one time only; creates the node_modules folder)
 npm install
 
-## Serve with hot reload at localhost:8080
+## Serve with hot reload at http://localhost:8080/vue-gen.html
 npm run dev
 
 ## Build for production with minification. This will generate the 
