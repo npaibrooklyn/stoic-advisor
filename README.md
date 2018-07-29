@@ -6,7 +6,7 @@ Demonstrates a simple form validation and submit using Ajax to a mock REST API
 
 # Credits
 * This project was build using the Vue.js webpack template at:  
-https://github.com/vuejs-templates/webpack/tree/develop/template  
+https://github.com/vuejs-templates/webpack  
 
 * Documentation for the template is here:  
 https://vuejs-templates.github.io/webpack/
