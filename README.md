@@ -12,9 +12,10 @@ https://github.com/vuejs-templates/webpack/tree/develop/template
 https://vuejs-templates.github.io/webpack/
 
 * I tweaked the files in build/ and config/ folder in following ways:   
-    * Generate frontend files into the src/main/webapp/ folder of App Engine (instead of the dist/ folder) as per: https://vuejs-templates.github.io/webpack/backend.html  
+    * Generate frontend files into the src/main/webapp/ folder of App Engine (instead of the dist/ folder) as per: 
+        https://vuejs-templates.github.io/webpack/backend.html  
 
-    * Also, changed the name of generated index file (from index.html to vue-gen.html) and assets folder (from static/ to vue-gen/)
+    * Changed the name of generated index file (from index.html to vue-gen.html) and assets folder (from static/ to vue-gen/)
 
 
 
@@ -34,14 +35,14 @@ https://vuejs-templates.github.io/webpack/
 * Install npm: brew install node
 
 * Download and install maven:   
-    https://maven.apache.org/download.cgi  
-    https://maven.apache.org/install.html
+    * https://maven.apache.org/download.cgi  
+    * https://maven.apache.org/install.html
 
 
 
 # Building Vue.js app
 ```
-## Install dependencies (one time; creates node_modules folder)
+## Install dependencies (one time only; creates the node_modules folder)
 npm install
 
 ## Serve with hot reload at localhost:8080
@@ -58,12 +59,18 @@ npm run build --report
 
 
 # Deploy and start the web app on App Engine in Google cloud using Eclipse
-### Generate the Vue.js app
+#### Generate the Vue.js app
 ```  
-npm run build --report
+npm run build
 ```
 
-### Deploy and start App Engine app  
+#### Deploy and start App Engine app  
+##### Using maven: 
+```
+mvn appengine:deploy  
+```    
+  
+##### Using Eclipse
 * Right click on project in Eclipse and click "Deploy to App Engine Standard...".
 
 * In the resulting window, select the google account associated with the cloud console and 
@@ -81,12 +88,12 @@ npm run build --report
 
 
 # Running locally on App Engine using Eclipse
-### Generate the Vue.js app
+#### Generate the Vue.js app
 ```
-npm run build --report
+npm run build
 ```
 
-### Run App Engine locally
+#### Run App Engine locally
 * Right click on the project
 
 * Run as... -> App Engine
@@ -96,11 +103,12 @@ npm run build --report
 
 
 # Maven
-### See all available maven goals
+#### See all available maven goals
+```
 mvn help:describe -Dplugin=appengine
+```
 
 You will see something like this:
-
 ```
 appengine:deploy
   Description: Stage and deploy an application to Google App Engine standard
