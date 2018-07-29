@@ -56,50 +56,49 @@ npm run build --report
 
 # Deploying and starting the web app on App Engine in Google cloud using Eclipse
 
-```
-## Generate the Vue.js app
-1) npm run build --report
+
+## Generate the Vue.js app  
+npm run build --report
  
-## Deploy and start App Engine app
-- Right click on project in Eclipse and click "Deploy to App Engine Standard...".
+## Deploy and start App Engine app  
+* Right click on project in Eclipse and click "Deploy to App Engine Standard...".
 
-- In the resulting window, select the google account associated with the cloud console and select cloud project (stoic-advisor) to push the application to. 
+* In the resulting window, select the google account associated with the cloud console and 
+    select cloud project (stoic-advisor) to push the application to. 
 
-- Also, check the following: 
-    "Promote deployed version to receive all traffic", 
-    "Stop previous version",
-    "Include optional app engine configuration files" 
+* Also, check the following: 
+    * "Promote deployed version to receive all traffic", 
+    * "Stop previous version",
+    * "Include optional app engine configuration files" 
 
-- Click "Deploy"
+* Click "Deploy"
 
-- Go to https://stoic-advisor.appspot.com/vue-gen.html 
-```
+* Go to https://stoic-advisor.appspot.com/vue-gen.html 
 
 
 # Running locally on App Engine using Eclipse
 
-```
+
 ## Generate the Vue.js app
-1) npm run build --report
+npm run build --report
 
 
 ## Run App Engine locally
 
-- Right click on the project
+* Right click on the project
 
-- Run as... -> App Engine
+* Run as... -> App Engine
 
-- Got to http://localhost:8080/vue-gen.html
-```
+* Got to http://localhost:8080/vue-gen.html
 
 # Maven
 
-```
 ## See all available maven goals
 mvn help:describe -Dplugin=appengine
 
 You will see something like this:
 
+```
 appengine:deploy
   Description: Stage and deploy an application to Google App Engine standard
     or flexible environment.
@@ -147,16 +146,14 @@ appengine:start
 appengine:stop
   Description: Stops a running App Engine Development App Server.
 
+```
 
-Run one of the goals, for example:
-
+Run one of the goals, for example:  
 mvn appengine:deploy
 
-```
 
 
 # Documentation
  * Vue.js: https://vuejs.org/v2/guide/
 
 
- 
