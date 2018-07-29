@@ -57,9 +57,11 @@ npm run build --report
 # Deploying and starting the web app on App Engine in Google cloud using Eclipse
 
 
-## Generate the Vue.js app  
+## Generate the Vue.js app
+```  
 npm run build --report
- 
+```
+
 ## Deploy and start App Engine app  
 * Right click on project in Eclipse and click "Deploy to App Engine Standard...".
 
@@ -80,8 +82,9 @@ npm run build --report
 
 
 ## Generate the Vue.js app
+```
 npm run build --report
-
+```
 
 ## Run App Engine locally
 
