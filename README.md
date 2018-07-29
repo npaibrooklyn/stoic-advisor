@@ -35,8 +35,11 @@ https://vuejs-templates.github.io/webpack/
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     ```
 
-* Install npm: brew install node
-
+* Install npm: 
+    ```
+    brew install node
+    ```
+    
 * Download and install maven:   
     * https://maven.apache.org/download.cgi  
     * https://maven.apache.org/install.html
