@@ -21,8 +21,8 @@ This project was build using the Vue.js webpack template at https://vuejs-templa
 - Install npm: brew install node
 
 - Download and install maven: 
-    https://maven.apache.org/download.cgi
-    https://maven.apache.org/install.html
+    -- https://maven.apache.org/download.cgi
+    -- https://maven.apache.org/install.html
 
 
 
