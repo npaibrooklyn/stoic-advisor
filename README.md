@@ -20,6 +20,10 @@ This project was build using few alterations to the template at https://vuejs-te
 
 - Install npm: brew install node
 
+- Download and install maven: 
+    https://maven.apache.org/download.cgi
+    https://maven.apache.org/install.html
+
 
 
 # Building Vue.js app
@@ -78,6 +82,67 @@ npm run build --report
 - Got to http://localhost:8080/vue-gen.html
 ```
 
+# Maven
+
+```
+## See all available maven goals
+mvn help:describe -Dplugin=appengine
+
+You will see something like this:
+
+appengine:deploy
+  Description: Stage and deploy an application to Google App Engine standard
+    or flexible environment.
+
+appengine:deployCron
+  Description: Stage and deploy cron.yaml to Google App Engine standard or
+    flexible environment.
+
+appengine:deployDispatch
+  Description: Stage and deploy dispatch.yaml to Google App Engine standard
+    or flexible environment.
+
+appengine:deployDos
+  Description: Stage and deploy dos.yaml to Google App Engine standard or
+    flexible environment.
+
+appengine:deployIndex
+  Description: Stage and deploy index.yaml to Google App Engine standard or
+    flexible environment.
+
+appengine:deployQueue
+  Description: Stage and deploy queue.yaml to Google App Engine standard or
+    flexible environment.
+
+appengine:genRepoInfoFile
+  Description: Generates repository information files for the Stackdriver
+    Debugger.
+
+appengine:help
+  Description: Display help information on appengine-maven-plugin.
+    Call mvn appengine:help -Ddetail=true -Dgoal=<goal-name> to display
+    parameter details.
+
+appengine:run
+  Description: Run App Engine Development App Server synchronously.
+
+appengine:stage
+  Description: Generates a deploy-ready application directory for App Engine
+    standard or flexible environment deployment.
+
+appengine:start
+  Description: Starts running App Engine Development App Server
+    asynchronously.
+
+appengine:stop
+  Description: Stops a running App Engine Development App Server.
+
+
+Run one of the goals, for example:
+
+mvn appengine:deploy
+
+```
 
 
 # Documentation
