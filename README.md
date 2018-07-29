@@ -5,8 +5,10 @@ https://stoic-advisor.appspot.com/vue-gen.html
 ```
 This project was build using the Vue.js webpack template at
 https://github.com/vuejs-templates/webpack/tree/develop/template  
+
 Documentation for the template is here:
 https://vuejs-templates.github.io/webpack/
+
 I tweaked the build to generate frontend files into the webapp folder of App Engine (instead of the dist/ folder) as per:
 https://vuejs-templates.github.io/webpack/backend.html
 ```
