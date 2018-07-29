@@ -39,7 +39,7 @@ https://vuejs-templates.github.io/webpack/
     ```
     brew install node
     ```
-    
+
 * Download and install maven:   
     * https://maven.apache.org/download.cgi  
     * https://maven.apache.org/install.html
@@ -65,7 +65,7 @@ npm run build --report
 
 
 # Deploy and start the web app on App Engine in Google cloud using Eclipse
-#### Generate the Vue.js app
+#### Generate the Vue.js app (if you made any changes to the frontend)
 ```  
 npm run build
 ```
@@ -94,7 +94,7 @@ mvn appengine:deploy
 
 
 # Running locally on App Engine using Eclipse
-#### Generate the Vue.js app
+#### Generate the Vue.js app (if you made any changes to the frontend)
 ```
 npm run build
 ```
